@@ -23,6 +23,6 @@ def run():
             controls.update(bg_color, screen, gun, inos, bullets)
             controls.update_bullets(screen, inos, bullets)
             controls.update_inos(stats, screen, gun, inos, bullets)
-        print('!!!!!')
+
 
 run()
