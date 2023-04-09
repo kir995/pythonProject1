@@ -105,7 +105,7 @@ def create_army(screen, inos):
 
 
 def check_high_score(stats, sc):
-    """проверка новых рекордов"""
+    """Проверка новых рекордов"""
     if stats.score > stats.high_score:
         stats.high_score = stats.score
         sc.image_high_score()
