@@ -1,7 +1,8 @@
-import pygame, sys
+import time
+import pygame
+import sys
 from bullet import Bullet
 from ino import Ino
-import time
 
 
 def events(screen, gun, bullets):

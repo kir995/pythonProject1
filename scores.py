@@ -2,8 +2,10 @@ import pygame.font
 from gun import Gun
 from pygame.sprite import Group
 
+
 class Scores():
     """вывод игровой информации"""
+
     def __init__(self, screen, stats):
         """инициализируем подсчет очков"""
         self.screen = screen
